@@ -127,7 +127,7 @@ while True:
                             for klub, info in data_klub.items():
                                 print(f"\nKlub: {klub}\nValue Market: {info['value_market']}\nDaerah: {info['daerah']}\nPemilik: {info['pemilik']}")
 
-                    elif pilih == 3:  # Keluar
+                    elif pilih == 3:
                         print("Terima kasih, kembali ke menu login.")
                         break
                     
